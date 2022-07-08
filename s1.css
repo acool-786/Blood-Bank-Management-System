@@ -1,0 +1,54 @@
+#full{
+    width: 100%;
+    height: auto;
+}
+#inner_full{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+}
+#body{
+    width: 100%;
+    height: 500px;
+    background-color: #e9d9de;
+}
+#footer{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    color: white;
+}
+ul li{
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 55px;
+    background: red;
+    color: white;
+    float: left;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#form{
+    width: 80%;
+    height: 392px; /*300*/
+    background: red;
+    color: white;
+    border-radius: 10px;
+}
+ul li a:hover{
+    background-color: rgb(1, 12, 12);
+    cursor: pointer;
+}
